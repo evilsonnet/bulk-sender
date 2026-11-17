@@ -1,21 +1,19 @@
 {
   "files": {
     "linux": {
-      "sha256": "763611ace589a8113493b5511af9685c9e6495ad19f48edf336724798ef766d6",
+      "sha256": "7711073199f5359640884f968bf3b38382e5b8991e1bd6fa53dd3a12592c815b",
       "urls": [
-        "https://updates.example.com/v1.0.0/sender-1.0.0-linux.zip",
         "https://github.com/evilsonnet/bulk-sender/releases/download/v1.0.0/sender-1.0.0-linux.zip"
       ]
     },
     "win64": {
-      "sha256": "63c34c4def9ec03b595c7a1efe1342009ac9155ffa0a0d8276a79f9f92b946a1",
+      "sha256": "e7ff4c4b742e1de0aaf5aa0c140842e60b055d841e7a68c50f8ce6008f8273ae",
       "urls": [
-        "https://updates.example.com/v1.0.0/sender-1.0.0-win64.zip",
         "https://github.com/evilsonnet/bulk-sender/releases/download/v1.0.0/sender-1.0.0-win64.zip"
       ]
     }
   },
-  "notes": "initial build",
-  "sig": "CRGK3H0q4Tn7Zgde71bO7AWzGLs6EkDjA8TuAh3U0ij6jfEhFyK1Zz5fpmwpbBqVmiuz_IJu-X9FMyWFFB-WAg",
+  "notes": "Initial build. Windows and Linux.",
+  "sig": "AHmyzQge5HvK400zSuTg4vWDSRMxsCdPXjUmtyHFEr0psChIA3MzlI8_usD8XzM49DDjYXdtgdqYcnlBquEjAw",
   "version": "1.0.0"
 }
