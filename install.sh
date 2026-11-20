@@ -49,8 +49,17 @@ if [ ! -x "$DIR/sender" ]; then
 fi
 echo "-> Installed to $DIR"
 if [ -e /etc/NIXOS ]; then
-  echo "Note (NixOS): if the program refuses to start, enable nix-ld or run it once via"
-  echo "  nix-shell -p stdenv.cc.cc.lib --run \"$DIR/sender\""
+  cat <<'NIX'
+Note (NixOS): this program needs the standard Linux loader, which NixOS
+does not provide by default. Two ways to fix:
+
+  one-off (no rebuild):
+    nix-shell -p stdenv.cc.cc.lib zlib --run "$DIR/sender"
+
+  permanent - add to configuration.nix, then sudo nixos-rebuild switch:
+    programs.nix-ld.enable = true;
+    programs.nix-ld.libraries = with pkgs; [ stdenv.cc.cc zlib ];
+NIX
 fi
 echo ""
 echo "Start it with:  $DIR/sender"
