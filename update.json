@@ -20,6 +20,6 @@
     }
   },
   "notes": "v1.1.0 \u2014 AI polish (de-spam rewrite + audit), AI template editing, Zapmail CSV mailbox import, late-bounce detection, 46 templates (new health care / wealth care / FSA), LICENSE.md terms included",
-  "sig": "6HjzxcsRGWZnKnMRQhzKy3WEcu-A2DtYy_P5xMnQo7J8-aqHot6DvTt0NUjOxmahMCWzIofi4hRQlCKLAyp2AA",
+  "sig": "iDbamXQUgMpGOYFTuAfkKh4B0c034ki39VO8gNSNor3GlRGY97-MDO8S950vBYpd_lHkd0bNOh7XH7NwPZ3zBQ",
   "version": "1.1.0"
 }
