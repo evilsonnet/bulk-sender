@@ -1,25 +1,25 @@
 {
   "files": {
     "darwin": {
-      "sha256": "9f1cb84b8c36ee6f94f6901aa4d9908e31d2ef9a1b02bb1002132686adfeb0dc",
+      "sha256": "73f3f52ee7f0b0c7925c6079184238a94abf2142b8610d17138b86c8617fba0d",
       "urls": [
         "https://github.com/evilsonnet/bulk-sender/releases/download/v1.1.0/sender-1.1.0-macos-arm64.zip"
       ]
     },
     "linux": {
-      "sha256": "1de7720522964b6a17f368c120c737701f23d6751e7a9b10401f7dbc1e6f6fa6",
+      "sha256": "9b2a44426626fc8be595ff050cb4f525c9365527499b804a993e9c49ae1852e5",
       "urls": [
         "https://github.com/evilsonnet/bulk-sender/releases/download/v1.1.0/sender-1.1.0-linux.zip"
       ]
     },
     "win64": {
-      "sha256": "358825f7d2a20d894d53fa94dc0475f236fb345d02141ce1ceea88409818553d",
+      "sha256": "e9714373d4a39fd537b06c0f71ce43ca92f78c19256c4a3c49582957d4416ac5",
       "urls": [
         "https://github.com/evilsonnet/bulk-sender/releases/download/v1.1.0/sender-1.1.0-win64.zip"
       ]
     }
   },
   "notes": "v1.1.0 \u2014 AI polish (de-spam rewrite + audit), AI template editing, Zapmail CSV mailbox import, late-bounce detection, 46 templates (new health care / wealth care / FSA), LICENSE.md terms included",
-  "sig": "n4nOUwb-gy1SXHkwE754bwDfa2y6TIcx2Sl46o4jMcj3rXLnxHeqXx0RBTK19lMNOHMMis7njhyQ4z68_KnMDw",
+  "sig": "CgFImpRIjSDh1JUWNL5EXNo56XNM_FfLLWNaSjmltPrxfZESL_kQI6VJZEfmSJva9yHQTD4THIV2sDT7FzIDAA",
   "version": "1.1.0"
 }
