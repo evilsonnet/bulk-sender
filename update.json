@@ -1,5 +1,11 @@
 {
   "files": {
+    "darwin": {
+      "sha256": "9f1cb84b8c36ee6f94f6901aa4d9908e31d2ef9a1b02bb1002132686adfeb0dc",
+      "urls": [
+        "https://github.com/evilsonnet/bulk-sender/releases/download/v1.1.0/sender-1.1.0-macos-arm64.zip"
+      ]
+    },
     "linux": {
       "sha256": "1de7720522964b6a17f368c120c737701f23d6751e7a9b10401f7dbc1e6f6fa6",
       "urls": [
@@ -14,6 +20,6 @@
     }
   },
   "notes": "v1.1.0 \u2014 AI polish (de-spam rewrite + audit), AI template editing, Zapmail CSV mailbox import, late-bounce detection, 46 templates (new health care / wealth care / FSA), LICENSE.md terms included",
-  "sig": "H1AOyOGnFK-f6sjgx4b38mcy5bUwUT1d3DaEyft-HLNhVj2K8BNVCEr3nbL49T1wlazM7k7r1FBte9BfDLlWCw",
+  "sig": "n4nOUwb-gy1SXHkwE754bwDfa2y6TIcx2Sl46o4jMcj3rXLnxHeqXx0RBTK19lMNOHMMis7njhyQ4z68_KnMDw",
   "version": "1.1.0"
 }
